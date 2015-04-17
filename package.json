@@ -37,5 +37,13 @@
     "grunt-simple-mocha": "*",
     "mocha": "*",
     "supertest": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokai/linda-worker-shokai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shokai/linda-worker-shokai/issues"
+  },
+  "homepage": "https://github.com/shokai/linda-worker-shokai#readme"
 }
