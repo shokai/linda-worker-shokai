@@ -8,7 +8,7 @@ module.exports = (linda) ->
   arduino = new ArduinoFirmata().connect config.arduino.port
 
   arduino.once 'connect', ->
-    linda.debug 'arduino connected (#{config.arduino.port})'
+    linda.debug "arduino connected (#{config.arduino.port})"
     setInterval ->
       light = arduino.analogRead 0
       linda.debug "light : #{light}"
