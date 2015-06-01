@@ -8,6 +8,6 @@
   },
   "where": "shokai",
   "arduino": {
-    "port": "/dev/tty.usbmodemfd1311"
+    "port": "/dev/tty.usbmodemfd13331"
   }
 }
